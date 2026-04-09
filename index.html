@@ -81,7 +81,6 @@
             cursor: pointer;
         }
 
-        /* ===== THEME TOGGLE ===== */
         .theme-toggle {
             position: fixed;
             top: 16px;
@@ -106,7 +105,6 @@
             box-shadow: var(--shadow-md);
         }
 
-        /* ===== SCREENS ===== */
         .screen {
             display: none;
         }
@@ -115,7 +113,6 @@
             display: block;
         }
 
-        /* ===== SEARCH SCREEN ===== */
         .search-screen {
             max-width: 1400px;
             margin: 0 auto;
@@ -137,7 +134,6 @@
             margin-bottom: 1.5rem;
         }
 
-        /* ===== SEARCH BAR ===== */
         .search-bar {
             background: var(--surface);
             border: 1px solid var(--border);
@@ -161,7 +157,7 @@
         }
 
         .fl {
-            font-size: .6875rem;
+            font-size: 1.0rem;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: .07em;
@@ -169,11 +165,10 @@
             margin-bottom: .3rem;
         }
 
-        /* ===== INPUTS PADRÃO ===== */
         .fi {
             border: 1.5px solid var(--border);
             border-radius: var(--radius);
-            padding: .5625rem .75rem;
+            padding: 1.1rem .75rem;
             font-size: .875rem;
             font-family: var(--font);
             color: var(--text);
@@ -189,7 +184,6 @@
             background: var(--surface);
         }
 
-        /* ===== DROPDOWN CUSTOMIZADO ===== */
         .custom-dropdown {
             position: relative;
         }
@@ -365,7 +359,6 @@
             background: var(--blue-muted);
         }
 
-        /* ===== BOTÕES ===== */
         .btn-primary {
             background: var(--blue);
             color: #fff;
@@ -416,7 +409,6 @@
             background: var(--blue-muted);
         }
 
-        /* ===== TABLE ===== */
         .results-wrap {
             background: var(--surface);
             border: 1px solid var(--border);
@@ -429,7 +421,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: .875rem 1.375rem;
+            padding: .5rem 1.375rem;
             border-bottom: 1px solid var(--border);
             background: var(--bg);
         }
@@ -452,7 +444,7 @@
         }
 
         .pt th {
-            font-size: .6875rem;
+            font-size: 0.9rem;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: .07em;
@@ -466,7 +458,7 @@
         .pt td {
             padding: .8125rem 1.375rem;
             border-bottom: 1px solid var(--border);
-            font-size: .875rem;
+            font-size: 1.1rem;
             vertical-align: middle;
             color: var(--text-2);
         }
@@ -485,7 +477,7 @@
 
         .td-code {
             font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace;
-            font-size: .75rem;
+            font-size: 1.1rem;
             background: var(--bg);
             padding: .2rem .55rem;
             border-radius: 5px;
@@ -504,7 +496,7 @@
 
         .td-badge {
             display: inline-block;
-            font-size: .6875rem;
+            font-size: 1.1rem;
             font-weight: 700;
             padding: .2rem .6rem;
             border-radius: 20px;
@@ -514,17 +506,17 @@
         }
 
         .btn-edit {
-            background: var(--surface);
-            border: 1.5px solid var(--border);
+            background: #2563eb;
+            border: 1.5px solid #2563eb;
             border-radius: 7px;
             padding: .3rem .75rem;
-            font-size: .8125rem;
+            font-size: 1.0rem;
             font-weight: 600;
             cursor: pointer;
             display: inline-flex;
             align-items: center;
             gap: .3rem;
-            color: var(--text-2);
+            color: #ffffff;
             transition: all .15s;
         }
 
@@ -594,7 +586,6 @@
             cursor: not-allowed;
         }
 
-        /* ===== EDITOR LAYOUT ===== */
         .editor-screen {
             max-width: 1600px;
             margin: 0 auto;
@@ -623,7 +614,7 @@
             top: 20px;
             max-height: calc(100vh - 40px);
             overflow-y: auto;
-            padding: 1.25rem;
+            padding: 1.1rem;
         }
 
         @media (max-width: 1000px) {
@@ -657,7 +648,6 @@
             background: var(--blue-muted);
         }
 
-        /* ===== META ===== */
         .editor-meta {
             background: var(--surface);
             border: 1px solid var(--border);
@@ -688,7 +678,6 @@
             color: var(--text);
         }
 
-        /* ===== FORM CARDS ===== */
         .fc {
             background: var(--surface);
             border: 1px solid var(--border);
@@ -709,7 +698,7 @@
         }
 
         .fc-title {
-            font-size: .9375rem;
+            font-size: 1.1rem;
             font-weight: 700;
             display: flex;
             align-items: center;
@@ -743,7 +732,6 @@
             padding: 1.125rem 1.375rem;
         }
 
-        /* ===== VIEW TOGGLE ===== */
         .view-toggle {
             display: flex;
             gap: 2px;
@@ -753,7 +741,7 @@
         }
 
         .vt-btn {
-            font-size: .75rem;
+            font-size: 1.0rem;
             font-weight: 600;
             background: none;
             border: none;
@@ -770,7 +758,6 @@
             box-shadow: 0 1px 3px rgba(0, 0, 0, .08);
         }
 
-        /* ===== SEO TIP ===== */
         .seo-tip details {
             background: #fffbeb;
             border: 1px solid #fde68a;
@@ -801,20 +788,15 @@
             padding-left: 1rem;
         }
 
-        .seo-tip .tip-content li {
-            margin-bottom: .2rem;
-        }
-
-        /* ===== PLAIN INPUT ===== */
         .plain-input {
             border: 1.5px solid var(--border);
             border-radius: var(--radius);
-            padding: .5625rem .875rem;
+            padding: 0.9rem .875rem;
             font-size: .9375rem;
             font-family: var(--font);
             width: 100%;
             outline: none;
-            background: var(--input-bg);
+            background: #ffffff;
             color: var(--text);
             transition: border-color .15s, box-shadow .15s, background .15s;
         }
@@ -841,7 +823,6 @@
             color: var(--danger);
         }
 
-        /* ===== TOOLBAR ===== */
         .editor-toolbar {
             display: flex;
             flex-wrap: wrap;
@@ -862,7 +843,7 @@
             align-items: center;
             justify-content: center;
             cursor: pointer;
-            font-size: .8125rem;
+            font-size: 1.1rem;
             color: var(--text-2);
             transition: all .12s;
         }
@@ -894,12 +875,11 @@
             margin-right: .1rem;
         }
 
-        /* ===== RICH EDITOR ===== */
         .editor-content {
             min-height: 200px;
             padding: 1rem 1.125rem;
             outline: none;
-            font-size: .9375rem;
+            font-size: 1.2rem;
             line-height: 1.7;
             color: var(--text);
         }
@@ -945,7 +925,6 @@
             color: var(--muted);
         }
 
-        /* ===== SPECS ===== */
         .spec-row {
             display: flex;
             align-items: center;
@@ -962,12 +941,12 @@
         .spec-row input {
             border: none;
             background: transparent;
-            font-size: .875rem;
+            font-size: 1.10rem;
             font-family: var(--font);
             flex: 1;
             outline: none;
             color: var(--text);
-            padding: .125rem 0;
+            padding: .9rem 0;
         }
 
         .spec-arrow {
@@ -1016,7 +995,6 @@
             background: var(--blue-muted);
         }
 
-        /* ===== COMPRE JUNTO ===== */
         .cj-section {
             margin-bottom: 1rem;
         }
@@ -1116,7 +1094,6 @@
             font-size: .8125rem;
         }
 
-        /* ===== SAVE BAR ===== */
         .save-bar {
             position: sticky;
             bottom: 0;
@@ -1191,9 +1168,8 @@
             color: var(--text);
         }
 
-        /* ===== PREVIEW ===== */
         .preview-img {
-            background: var(--bg);
+            background: #ffffff;
             border: 1px solid var(--border);
             display: flex;
             justify-content: center;
@@ -1216,11 +1192,10 @@
         }
 
         .preview-description {
-            font-size: .875rem;
+            font-size: 1.2rem;
             line-height: 1.65;
         }
 
-        /* ===== TOAST ===== */
         .toast-wrap {
             position: fixed;
             bottom: 1.25rem;
@@ -1278,14 +1253,13 @@
             }
         }
 
-        /* ===== BOTÕES IA ===== */
         .btn-ia {
             background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
             color: white;
             border: none;
             border-radius: 6px;
             padding: .25rem .65rem;
-            font-size: .75rem;
+            font-size: 1.1rem;
             font-weight: 600;
             font-family: var(--font);
             cursor: pointer;
@@ -1309,7 +1283,6 @@
             box-shadow: 0 3px 10px rgba(16, 185, 129, 0.35);
         }
 
-        /* ===== MODAL ===== */
         .modal-content {
             background: var(--surface);
             color: var(--text);
@@ -1330,7 +1303,6 @@
             font-family: var(--font);
         }
 
-        /* ===== MISC ===== */
         .specs-html-editor {
             display: none;
         }
@@ -1368,7 +1340,7 @@
                     <h4 class="modal-title">✏️ Gerar descrição personalizada</h4>
                 </div>
                 <div class="modal-body">
-                    <p>Forneça instruções adicionais para a IA (opcional):</p>
+                    <p>Forneça instruções adicionais para a IA (obrigatório):</p>
                     <textarea id="iaCustomPrompt" rows="5"
                         placeholder="Ex: Use um tom mais técnico, destaque a durabilidade, inclua palavras-chave como 'resistente' e 'leve', aponte que é ideal para estudantes. Mínimo 400 palavras."></textarea>
                     <small class="text-muted">A IA já conhece os dados do produto (título, marca, especificações). Aqui
@@ -1513,7 +1485,7 @@
                             </div>
                         </div>
                         <div class="editor-toolbar" id="tb-desc">
-                            <span class="tb-lbl">¶</span>
+                            <!-- <span class="tb-lbl">¶</span> -->
                             <button class="tb-btn" onclick="fmtP('desc')" title="Parágrafo"><i
                                     class="bi bi-text-paragraph"></i></button>
                             <div class="tb-sep"></div>
@@ -1557,8 +1529,7 @@
                         <div class="fc-hdr">
                             <div class="fc-title"><i class="bi bi-list-check"></i> Especificações Técnicas <button
                                     class="btn-ia" onclick="gerarComIA('especificacoes', 'auto')"><i
-                                        class="bi bi-magic"></i>
-                                    Gerar com IA</button></div>
+                                        class="bi bi-magic"></i> Gerar com IA</button></div>
                             <div class="view-toggle"><button class="vt-btn active" id="vt-specs-n"
                                     onclick="setSpecsView('n')">Normal</button><button class="vt-btn" id="vt-specs-h"
                                     onclick="setSpecsView('h')">HTML</button></div>
@@ -1639,6 +1610,54 @@
         const PAGE_SIZE = 15;
         let currentProd = null, cj1 = null, cj2 = null;
         let pendingGenerateCallback = null;
+
+        // ==================== FUNÇÃO DE CONVERSÃO MARKDOWN → HTML (sem headings) ====================
+        function markdownToHtml(md) {
+            if (!md) return '';
+            let html = md;
+
+            // Converte headings para parágrafos com o mesmo conteúdo (remove a tag de heading)
+            // Primeiro, captura linhas que começam com #, ##, ### e as transforma em <p>
+            html = html.replace(/^#{1,3} (.*$)/gm, '<p><strong>$1</strong></p>');
+
+            // Negrito **texto**
+            html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+            // Itálico *texto*
+            html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
+
+            // Linhas que começam com - ou * (listas não ordenadas)
+            let inList = false;
+            let lines = html.split('\n');
+            let result = [];
+            for (let line of lines) {
+                line = line.trim();
+                if (line.match(/^[\-\*] /)) {
+                    if (!inList) {
+                        result.push('<ul>');
+                        inList = true;
+                    }
+                    let item = line.replace(/^[\-\*] /, '');
+                    // Processa negrito dentro do item
+                    item = item.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                    result.push(`<li>${item}</li>`);
+                } else {
+                    if (inList) {
+                        result.push('</ul>');
+                        inList = false;
+                    }
+                    if (line !== '') {
+                        // Parágrafo normal
+                        result.push(`<p>${line}</p>`);
+                    }
+                }
+            }
+            if (inList) result.push('</ul>');
+            html = result.join('');
+
+            // Remove quebras de linha desnecessárias
+            html = html.replace(/\n\s*\n/g, '');
+            return html;
+        }
 
         // Carregar planilha
         const EXCEL_URL = "https://img.kalunga.com.br/Hotsite/teste.xlsx";
@@ -1828,7 +1847,7 @@
         function collectSpecs() { return specsViewMode === 'h' ? htmlToSpecs(document.getElementById('specsHtmlTextarea').value) : collectSpecsFromNormal(); }
 
         // RICH EDITOR
-        const ALLOWED_TAGS = ['p', 'strong', 'ul', 'li', 'hr', 'br'];
+        const ALLOWED_TAGS = ['p', 'strong', 'ul', 'li', 'hr', 'br', 'em'];
         function cleanHtml(raw) {
             const div = document.createElement('div'); div.innerHTML = raw;
             function walk(node) {
@@ -1883,7 +1902,7 @@
         function removeCJ(slot) { if (slot === 1) { cj1 = null; document.getElementById('cj1inp').value = ''; } else { cj2 = null; document.getElementById('cj2inp').value = ''; } renderCJ(slot); updatePreview(); }
 
         // PREVIEW
-        function updatePreview() { if (!currentProd) return; const titulo = document.getElementById('tituloAmigavel').value || currentProd.tituloAmigavel || ''; const descHtml = getCurrentDescriptionHtml() || ''; const specsHtml = specsToHtml(collectSpecs()); const ilustrativoHtml = document.getElementById('ilustrativo').value || ''; let sku = (currentProd.codigo || '').trim().replace(/\s+/g, '').normalize('NFD').replace(/[\u0300-\u036f]/g, ''); const imgUrl = `https://img.kalunga.com.br/fotosdeprodutos/${encodeURIComponent(sku)}.jpg`; const fallback = `https://placehold.co/400x300?text=Sem+Imagem`; let cjHtml = ''; if (cj1 || cj2) { cjHtml = '<h4>💡 Compre Junto</h4><ul>'; if (cj1) cjHtml += `<li><strong>${esc(cj1.titulo)}</strong> (${esc(cj1.codigo)})</li>`; if (cj2) cjHtml += `<li><strong>${esc(cj2.titulo)}</strong> (${esc(cj2.codigo)})</li>`; cjHtml += '</ul>'; } document.getElementById('productPreviewContainer').innerHTML = `<div class="preview-card"><div class="preview-img"><img src="${imgUrl}" alt="${esc(titulo)}" onerror="this.onerror=null; this.src='${fallback}';" style="max-width:100%; max-height:200px; object-fit:contain;"></div><div class="preview-title">${esc(titulo)}</div><div class="preview-description">${descHtml || '<em>Nenhuma descrição</em>'}</div>${specsHtml !== '<ul><li><em>Nenhuma especificação</em></li></ul>' ? `<div class="preview-specs"><h4>📋 Especificações</h4>${specsHtml}</div>` : ''}${ilustrativoHtml ? `<div class="preview-ilustrativo"><h4>📸 Ilustrativo</h4>${ilustrativoHtml}</div>` : ''}${cjHtml ? `<div class="preview-cj">${cjHtml}</div>` : ''}</div>`; }
+        function updatePreview() { if (!currentProd) return; const titulo = document.getElementById('tituloAmigavel').value || currentProd.tituloAmigavel || ''; const descHtml = getCurrentDescriptionHtml() || ''; const specsHtml = specsToHtml(collectSpecs()); const ilustrativoHtml = document.getElementById('ilustrativo').value || ''; let sku = (currentProd.codigo || '').trim().replace(/\s+/g, '').normalize('NFD').replace(/[\u0300-\u036f]/g, ''); const imgUrl = `https://img.kalunga.com.br/fotosdeprodutos/${encodeURIComponent(sku)}.jpg`; const fallback = `https://placehold.co/400x300?text=Sem+Imagem`; let cjHtml = ''; if (cj1 || cj2) { cjHtml = '<h4>💡 Compre Junto</h4><ul>'; if (cj1) cjHtml += `<li><strong>${esc(cj1.titulo)}</strong> (${esc(cj1.codigo)})</li>`; if (cj2) cjHtml += `<li><strong>${esc(cj2.titulo)}</strong> (${esc(cj2.codigo)})</li>`; cjHtml += '</ul>'; } document.getElementById('productPreviewContainer').innerHTML = `<div class="preview-card"><div class="preview-img"><img src="${imgUrl}" alt="${esc(titulo)}" onerror="this.onerror=null; this.src='${fallback}';" style="max-width:100%; max-height:200px; object-fit:contain;"></div><div class="preview-title">${esc(titulo)}</div><div class="preview-description">${descHtml || '<em>Nenhuma descrição</em>'}</div>${specsHtml !== '<ul><li><em>Nenhuma especificação</em></li></ul>' ? `<div class="preview-specs"><h4>Especificações</h4>${specsHtml}</div>` : ''}${ilustrativoHtml ? `<div class="preview-ilustrativo"><h4>📸 Ilustrativo</h4>${ilustrativoHtml}</div>` : ''}${cjHtml ? `<div class="preview-cj">${cjHtml}</div>` : ''}</div>`; }
 
         // ==================== IA COM GROQ ====================
         async function gerarComIA(tipo, modo) {
@@ -1902,7 +1921,13 @@
                 $('#iaCustomModal').modal('show');
                 pendingGenerateCallback = async () => {
                     const instrucoes = document.getElementById('iaCustomPrompt').value.trim();
+                    if (!instrucoes) {
+                        toast('Por favor, digite instruções para a IA personalizada.', 'error');
+                        return;
+                    }
                     await gerarDescricaoCustom(instrucoes);
+                    $('#iaCustomModal').modal('hide');
+                    pendingGenerateCallback = null;
                 };
             }
         }
@@ -1917,48 +1942,53 @@ Marca: ${produto.marca}
 ${specsAtuais.length ? `Especificações:\n${specsAtuais.map(s => `- ${s.attr}: ${s.val}`).join('\n')}` : ''}
 
 Instruções:
-- Use estrutura com <h2> no início e parágrafos curtos (máximo 3 linhas).
+- NÃO use títulos (h1, h2, h3). Use apenas parágrafos e, se necessário, listas com - e negrito com **.
 - Inclua a palavra-chave principal (nome do produto + marca) nos primeiros 100 caracteres.
-- Responda perguntas comuns do cliente (ex: "Qual a capacidade?", "Tem garantia?", "Serve para notebook de 15 polegadas?").
-- Destaque benefícios com <strong>.
-- Use listas <ul><li> para características e diferenciais.
+- Responda perguntas comuns do cliente.
+- Destaque benefícios com **negrito**.
+- Use listas com - item para características e diferenciais.
 - Mínimo 300 palavras.
-- Finalize com call to action (ex: "Adquira já e tenha mais praticidade no seu dia a dia").
-- Retorne APENAS o HTML da descrição, começando com <h2> ou <p>.`;
+- Finalize com call to action.`;
 
             toast('⏳ Gerando descrição automática...', 'success');
-            await executarRequisicaoGroq(prompt, 'descricao');
+            await executarRequisicaoGroq(prompt, 'descricao_html');
         }
 
         async function gerarDescricaoCustom(instrucoes) {
             const produto = currentProd;
             const specsAtuais = collectSpecs();
-            let prompt = `Você é um redator de e-commerce especialista em SEO e GEO. Gere uma descrição detalhada e persuasiva para o produto:
+            let prompt = `Você é um redator de e-commerce. Gere uma descrição em formato markdown simples (use **negrito**, - para listas, parágrafos normais) para o produto. NÃO use títulos (#, ##, ###). 
 
-Título: ${produto.titulo}
+Produto: ${produto.titulo}
 Marca: ${produto.marca}
 ${specsAtuais.length ? `Especificações:\n${specsAtuais.map(s => `- ${s.attr}: ${s.val}`).join('\n')}` : ''}
 
-${instrucoes ? `Instruções adicionais do usuário: ${instrucoes}` : ''}
+Instruções adicionais do usuário (siga-as rigorosamente): ${instrucoes}
 
-Requisitos técnicos:
-- Use estrutura com <h2> no início e parágrafos curtos.
-- Inclua palavras-chave relevantes naturalmente.
-- Responda perguntas implícitas do cliente.
-- Destaque benefícios com <strong>.
-- Use listas <ul><li> quando apropriado.
-- Mínimo 300 palavras.
-- Finalize com call to action.
-- Retorne APENAS o HTML da descrição, começando com <h2> ou <p>.`;
+Requisitos:
+- Escreva em português brasileiro.
+- Use linguagem natural, persuasiva e clara.
+- Use **negrito** para destacar pontos importantes.
+- Use - para criar listas.
+- Mínimo de 250 palavras.
+- Responda APENAS com o texto, sem comentários adicionais.`;
 
             toast('⏳ Gerando descrição personalizada...', 'success');
-            await executarRequisicaoGroq(prompt, 'descricao');
+            const markdownResult = await executarRequisicaoGroqTexto(prompt);
+            if (markdownResult) {
+                const htmlConvertido = markdownToHtml(markdownResult);
+                document.getElementById('ed-desc').innerHTML = htmlConvertido;
+                setView('desc', 'n');
+                countRich('desc', 'cnt-desc');
+                updatePreview();
+                toast('✅ Descrição personalizada gerada!', 'success');
+            }
         }
 
         async function gerarEspecificacoesAuto() {
             const produto = currentProd;
             const specsAtuais = collectSpecs();
-            const prompt = `Gere uma lista de especificações técnicas no formato <ul><li><strong>Atributo</strong>: Valor</li></ul> para o produto:
+            const prompt = `Gere uma lista de especificações técnicas no formato HTML <ul><li><strong>Atributo</strong>: Valor</li></ul> para o produto:
 
 Produto: ${produto.titulo}
 Marca: ${produto.marca}
@@ -1991,12 +2021,13 @@ Instruções:
                 resultado = resultado.replace(/```html/g, '').replace(/```/g, '').trim();
                 if (!resultado) throw new Error('Resposta vazia da IA');
 
-                if (tipo === 'descricao') {
-                    document.getElementById('ed-desc').innerHTML = resultado;
+                if (tipo === 'descricao_html') {
+                    const htmlFinal = markdownToHtml(resultado);
+                    document.getElementById('ed-desc').innerHTML = htmlFinal;
                     setView('desc', 'n');
                     countRich('desc', 'cnt-desc');
                     updatePreview();
-                    toast('✅ Descrição gerada com sucesso!', 'success');
+                    toast('✅ Descrição automática gerada!', 'success');
                 } else if (tipo === 'especificacoes') {
                     const novasSpecs = htmlToSpecs(resultado);
                     if (novasSpecs.length === 0) throw new Error('Não foi possível extrair especificações');
@@ -2012,11 +2043,33 @@ Instruções:
             }
         }
 
+        async function executarRequisicaoGroqTexto(prompt) {
+            try {
+                const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${GROQ_API_KEY}` },
+                    body: JSON.stringify({
+                        model: 'llama-3.3-70b-versatile',
+                        messages: [{ role: 'system', content: 'Você é um assistente que responde apenas com texto puro, sem formatação HTML ou markdown.' }, { role: 'user', content: prompt }],
+                        temperature: 0.7,
+                        max_tokens: 2048
+                    })
+                });
+                if (!response.ok) { const err = await response.json(); throw new Error(`HTTP ${response.status}: ${err.error?.message}`); }
+                const data = await response.json();
+                let resultado = data.choices[0].message.content.trim();
+                if (!resultado) throw new Error('Resposta vazia da IA');
+                return resultado;
+            } catch (err) {
+                console.error(err);
+                toast('Erro: ' + err.message, 'error');
+                return null;
+            }
+        }
+
         function executarGeracaoPersonalizada() {
             if (pendingGenerateCallback) {
                 pendingGenerateCallback();
-                $('#iaCustomModal').modal('hide');
-                pendingGenerateCallback = null;
             }
         }
 
